@@ -141,6 +141,7 @@ body,html{
     animation: fadeIn 1s
   }
 
+
   .sb{
     text-transform: uppercase;
     color: var(--desaturatedDarkBlue);
@@ -199,7 +200,7 @@ body,html{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        height: 39em;
+        height: 38.5em;
         width: 26em;
     }
 
@@ -226,25 +227,25 @@ body,html{
         line-height: 1.7;
         width: 25em;
     }
-
+    
     .popup .popup-text::after {
         content: "";
         position: relative;
         border:none;
-        z-index: 2;
       }
 
-      .popup .popup-text {
+    .popup .popup-text {
         width: 337px;
         background-color: var(--veryDarkGrayishBlue);
         color: #fff;
         border-radius: 0px 0px 10px 10px;
         padding: 29px 0;
         position: absolute;
-        bottom: -125%;
+        bottom: -105%;
         left: -765%;
-        display: inline-block;
-      }
+        z-index: -1;
+    }
+
 
     .share{
         padding-top: 2em;
